@@ -9,7 +9,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 app=FastAPI();
 
-
+# cors configure 
 FRONTEND_URL = os.getenv("FRONTEND_URL")
 
 allowed_origins = [
